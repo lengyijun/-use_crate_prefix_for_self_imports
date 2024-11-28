@@ -1,0 +1,10 @@
+warning: this import is not clear
+  --> $DIR/main.rs:1:5
+   |
+LL | use foo::Foo;
+   |     ^^^ help: prefix with `crate::`: `crate::foo`
+   |
+   = note: `#[warn(use_crate_prefix_for_self_imports)]` on by default
+
+warning: 1 warning emitted
+
